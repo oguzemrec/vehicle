@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/main_sum.dir/main.cpp.o CMakeFiles/main_sum.dir/sum.cpp.o -o main_sum 

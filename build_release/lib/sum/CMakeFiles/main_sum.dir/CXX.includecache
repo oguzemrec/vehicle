@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/oguzemrecakil/Desktop/HelloWorld/lib/sum/main.cpp
+iostream
+-
+sum.h
+/Users/oguzemrecakil/Desktop/HelloWorld/lib/sum/sum.h
+
+/Users/oguzemrecakil/Desktop/HelloWorld/lib/sum/sum.cpp
+sum.h
+/Users/oguzemrecakil/Desktop/HelloWorld/lib/sum/sum.h
+
+/Users/oguzemrecakil/Desktop/HelloWorld/lib/sum/sum.h
+

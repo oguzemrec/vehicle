@@ -1,0 +1,42 @@
+[settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=12.0
+    cppstd=20
+    os=Macos
+
+[requires]
+    gtest/cci.20210126
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Debug
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=12.0
+    cppstd=20
+    os=Macos
+    os_build=Macos
+
+[full_requires]
+    gtest/cci.20210126:8ea16b5437d767794f13beec66099d7352875d19
+
+[full_options]
+    gtest:build_gmock=True
+    gtest:debug_postfix=d
+    gtest:fPIC=True
+    gtest:hide_symbols=False
+    gtest:no_main=False
+    gtest:shared=False
+
+[recipe_hash]
+
+
+[env]
+

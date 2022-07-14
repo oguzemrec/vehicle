@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Debug (lldb)",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "cmake build debug",
+            "program": "${workspaceFolder}/build_debug/HelloWorld",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb"
+        }
+    ]
+}

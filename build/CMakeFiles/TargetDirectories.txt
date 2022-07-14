@@ -1,0 +1,7 @@
+/Users/oguzemrecakil/Desktop/HelloWorld/build/CMakeFiles/rebuild_cache.dir
+/Users/oguzemrecakil/Desktop/HelloWorld/build/CMakeFiles/edit_cache.dir
+/Users/oguzemrecakil/Desktop/HelloWorld/build/CMakeFiles/helloWorld.dir
+/Users/oguzemrecakil/Desktop/HelloWorld/build/lib/sum/CMakeFiles/main_sum.dir
+/Users/oguzemrecakil/Desktop/HelloWorld/build/lib/sum/CMakeFiles/rebuild_cache.dir
+/Users/oguzemrecakil/Desktop/HelloWorld/build/lib/sum/CMakeFiles/edit_cache.dir
+/Users/oguzemrecakil/Desktop/HelloWorld/build/lib/sum/CMakeFiles/sum_lib.dir
