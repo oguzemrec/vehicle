@@ -17,6 +17,24 @@
 				"cwd": "${workspaceRoot}/build_debug"
 			},
 			"command": "cmake -DCMAKE_BUILD_TYPE=Debug .. && cmake --build .",
+		},
+		{
+			"label": "cmake unittest build debug",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/unittest/build"
+			},
+			"command": "cmake -DCMAKE_BUILD_TYPE=Debug .. && cmake --build .",
+		},
+		{
+			"label": "cmake unittest build",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/unittest/build"
+			},
+			"command": "cmake -DCMAKE_BUILD_TYPE=Release .. && cmake --build .",
 		}
+
 	]
 }
+

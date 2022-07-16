@@ -11,7 +11,20 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "C++ unittest Debug (lldb)",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "cmake unittest build debug",
+            "program": "${workspaceFolder}/unittest/build/bin/unittest",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/unittest",
+            "environment": [],
+            "externalConsole": false,
             "MIMode": "lldb"
         }
     ]
