@@ -22,7 +22,7 @@ CMAKE_AR:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -32,6 +32,9 @@ CMAKE_CXX_COMPILER:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/c++
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
+
+//Flags used by the C++ compiler during coverage builds.
+CMAKE_CXX_FLAGS_COVERAGE:STRING=-g -fprofile-arcs -ftest-coverage
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -50,6 +53,9 @@ CMAKE_C_COMPILER:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/cc
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
+
+//Flags used by the C compiler during coverage builds.
+CMAKE_C_FLAGS_COVERAGE:STRING=-g -fprofile-arcs -ftest-coverage
 
 //Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
@@ -72,6 +78,9 @@ CMAKE_EXECUTABLE_FORMAT:STRING=MACHO
 //Flags used by the linker during all build types.
 CMAKE_EXE_LINKER_FLAGS:STRING=
 
+//Flags used for linking binaries during coverage builds.
+CMAKE_EXE_LINKER_FLAGS_COVERAGE:STRING=
+
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
 
@@ -86,6 +95,9 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Enable/Disable output of compile commands during generation.
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
+
+//Flags used by the Fortran compiler during coverage builds.
+CMAKE_Fortran_FLAGS_COVERAGE:STRING=-g -fprofile-arcs -ftest-coverage
 
 //Path to a program.
 CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
@@ -173,6 +185,9 @@ CMAKE_READELF:FILEPATH=CMAKE_READELF-NOTFOUND
 // during all build types.
 CMAKE_SHARED_LINKER_FLAGS:STRING=
 
+//Flags used by the shared libraries linker during coverage builds.
+CMAKE_SHARED_LINKER_FLAGS_COVERAGE:STRING=
+
 //Flags used by the linker during the creation of shared libraries
 // during DEBUG builds.
 CMAKE_SHARED_LINKER_FLAGS_DEBUG:STRING=
@@ -225,6 +240,18 @@ CMAKE_STRIP:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a program.
+CPPFILT_PATH:FILEPATH=/usr/bin/c++filt
+
+//Path to a program.
+GCOVR_PATH:FILEPATH=GCOVR_PATH-NOTFOUND
+
+//Path to a program.
+GCOV_PATH:FILEPATH=/usr/bin/gcov
+
+//Path to a program.
+GENHTML_PATH:FILEPATH=/usr/local/bin/genhtml
+
 //Path to a file.
 GTEST_INCLUDE_DIR:PATH=/Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include
 
@@ -239,6 +266,9 @@ GTEST_MAIN_LIBRARY:FILEPATH=GTEST_MAIN_LIBRARY-NOTFOUND
 
 //Path to a library.
 GTEST_MAIN_LIBRARY_DEBUG:FILEPATH=/Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/lib/libgtest_maind.a
+
+//Path to a program.
+LCOV_PATH:FILEPATH=/usr/local/bin/lcov
 
 //Value Computed by CMake
 unittest_BINARY_DIR:STATIC=/Users/oguzemrecakil/Desktop/HelloWorld/unittest/build
@@ -275,6 +305,8 @@ CMAKE_CTEST_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.19.1/bin/ctest
 CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_CXX_FLAGS_COVERAGE
+CMAKE_CXX_FLAGS_COVERAGE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
 CMAKE_CXX_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_MINSIZEREL
@@ -287,6 +319,8 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_COVERAGE
+CMAKE_C_FLAGS_COVERAGE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
 CMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_MINSIZEREL
@@ -301,6 +335,8 @@ CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
 CMAKE_EDIT_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.19.1/bin/ccmake
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
 CMAKE_EXE_LINKER_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_COVERAGE
+CMAKE_EXE_LINKER_FLAGS_COVERAGE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_DEBUG
 CMAKE_EXE_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_MINSIZEREL
@@ -313,6 +349,8 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
+//ADVANCED property for variable: CMAKE_Fortran_FLAGS_COVERAGE
+CMAKE_Fortran_FLAGS_COVERAGE-ADVANCED:INTERNAL=1
 //Name of generator.
 CMAKE_GENERATOR:INTERNAL=Unix Makefiles
 //Generator instance identifier.
@@ -358,6 +396,8 @@ CMAKE_READELF-ADVANCED:INTERNAL=1
 CMAKE_ROOT:INTERNAL=/usr/local/Cellar/cmake/3.19.1/share/cmake
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_COVERAGE
+CMAKE_SHARED_LINKER_FLAGS_COVERAGE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
 CMAKE_SHARED_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL
@@ -386,6 +426,7 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+COVERAGE_COMPILER_FLAGS:INTERNAL=-g -fprofile-arcs -ftest-coverage
 //ADVANCED property for variable: GTEST_INCLUDE_DIR
 GTEST_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GTEST_LIBRARY

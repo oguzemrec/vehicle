@@ -6,5 +6,5 @@
 # Node artifact files
 build_release/*
 build_debug/*
-
+gcov-coverage/*
 
