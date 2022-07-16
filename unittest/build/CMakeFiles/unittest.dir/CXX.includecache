@@ -526,6 +526,12 @@ cxxabi.h
 acxx_demangle.h
 -
 
+/Users/oguzemrecakil/Desktop/HelloWorld/hello.cpp
+iostream
+-
+hello.h
+/Users/oguzemrecakil/Desktop/HelloWorld/hello.h
+
 /Users/oguzemrecakil/Desktop/HelloWorld/hello.h
 
 /Users/oguzemrecakil/Desktop/HelloWorld/unittest/hello_test.cpp
@@ -533,4 +539,12 @@ gmock/gmock.h
 /Users/oguzemrecakil/Desktop/HelloWorld/unittest/gmock/gmock.h
 ../hello.h
 /Users/oguzemrecakil/Desktop/HelloWorld/hello.h
+
+/Users/oguzemrecakil/Desktop/HelloWorld/unittest/main.cpp
+iostream
+-
+gtest/gtest.h
+/Users/oguzemrecakil/Desktop/HelloWorld/unittest/gtest/gtest.h
+gmock/gmock.h
+/Users/oguzemrecakil/Desktop/HelloWorld/unittest/gmock/gmock.h
 

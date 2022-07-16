@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.19.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.19.1/CMakeSystem.cmake"
   "cmake-build-debug/conanbuildinfo.cmake"
+  "../cmake-module/CodeCoverage.cmake"
   "/usr/local/Cellar/cmake/3.19.1/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/local/Cellar/cmake/3.19.1/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/local/Cellar/cmake/3.19.1/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
