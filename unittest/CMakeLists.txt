@@ -6,7 +6,12 @@ set(CMAKE_EXE_LINKER_FLAGS="-fprofile-arcs -ftest-coverage")
 
 add_definitions("-std=c++11")
 
-set(sources main.cpp hello_test.cpp ../hello.cpp ../hello.h)
+
+file(GLOB sources   ${PROJECT_SOURCE_DIR}/*.cpp
+${PROJECT_SOURCE_DIR}/../src/*.cpp
+${PROJECT_SOURCE_DIR}/../src/*.h)
+
+set(sources main.cpp hello_test.cpp ../src/hello.cpp ../src/hello.h)
 
 
 include(${CMAKE_BINARY_DIR}/cmake-build-debug/conanbuildinfo.cmake)

@@ -9,7 +9,7 @@ message("generator is set to ${CMAKE_GENERATOR}")
 add_subdirectory(lib/sum)
 
 
-file(GLOB HW_SRC CONFIGURE_DEPENDS "*.h" "*.cpp")
+file(GLOB HW_SRC CONFIGURE_DEPENDS ${PROJECT_SOURCE_DIR}/src/*.cpp)
 add_executable(helloWorld ${HW_SRC})
 
 #target_include_directories(helloWorld PUBLIC /lib/sum)

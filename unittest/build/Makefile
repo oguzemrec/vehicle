@@ -142,32 +142,32 @@ unittest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/build
 .PHONY : unittest/fast
 
-Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.o: Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.o
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.o: Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.o
 
-.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.o
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.o
 
 # target to build an object file
-Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.o
-.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.o
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.o
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.o
 
-Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.i: Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.i
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.i: Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.i
 
-.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.i
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.i
 
 # target to preprocess a source file
-Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.i
-.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.i
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.i
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.i
 
-Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.s: Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.s
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.s: Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.s
 
-.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.s
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.s
 
 # target to generate assembly for a file
-Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.s
-.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.s
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.s
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.s
 
 hello_test.o: hello_test.cpp.o
 
@@ -232,9 +232,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... unittest"
-	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.o"
-	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.i"
-	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.s"
+	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.o"
+	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.i"
+	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.s"
 	@echo "... hello_test.o"
 	@echo "... hello_test.i"
 	@echo "... hello_test.s"

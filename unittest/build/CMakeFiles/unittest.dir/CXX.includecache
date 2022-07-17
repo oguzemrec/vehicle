@@ -526,19 +526,11 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.h
+/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.h
 
 /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/hello_test.cpp
 gmock/gmock.h
 /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/gmock/gmock.h
-../hello.h
-/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.h
-
-/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/main.cpp
-iostream
--
-gtest/gtest.h
-/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/gtest/gtest.h
-gmock/gmock.h
-/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/gmock/gmock.h
+../src/hello.h
+/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.h
 

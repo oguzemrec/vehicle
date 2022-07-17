@@ -1,5 +1,5 @@
 #include "gmock/gmock.h"
-#include "../hello.h"
+#include "../src/hello.h"
 
 
 using namespace ::testing;

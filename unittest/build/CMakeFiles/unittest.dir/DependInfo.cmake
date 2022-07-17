@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp" "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.o"
+  "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp" "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.o"
   "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/hello_test.cpp" "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles/unittest.dir/hello_test.cpp.o"
   "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/main.cpp" "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles/unittest.dir/main.cpp.o"
   )
