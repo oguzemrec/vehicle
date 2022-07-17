@@ -17,9 +17,8 @@ find_package(GTest)
 
 INCLUDE( ${CMAKE_SOURCE_DIR}/cmake-module/CodeCoverage.cmake )
 
-  append_coverage_compiler_flags()
-  add_test(NAME unittest
-  COMMAND unittest)
+append_coverage_compiler_flags()
+add_test(NAME unittest COMMAND unittest)
 
 add_executable(unittest ${sources})
 target_link_libraries(unittest ${CONAN_LIBS})
