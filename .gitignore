@@ -6,5 +6,6 @@
 # Node artifact files
 build_release/*
 build_debug/*
+build/*
 
-
+*.DS_Store
