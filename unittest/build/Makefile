@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.19.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/oguzemrecakil/Desktop/HelloWorld/unittest
+CMAKE_SOURCE_DIR = /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/oguzemrecakil/Desktop/HelloWorld/unittest/build
+CMAKE_BINARY_DIR = /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oguzemrecakil/Desktop/HelloWorld/unittest/build/CMakeFiles /Users/oguzemrecakil/Desktop/HelloWorld/unittest/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oguzemrecakil/Desktop/HelloWorld/unittest/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,32 +142,32 @@ unittest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/build
 .PHONY : unittest/fast
 
-Users/oguzemrecakil/Desktop/HelloWorld/hello.o: Users/oguzemrecakil/Desktop/HelloWorld/hello.cpp.o
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.o: Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.o
 
-.PHONY : Users/oguzemrecakil/Desktop/HelloWorld/hello.o
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.o
 
 # target to build an object file
-Users/oguzemrecakil/Desktop/HelloWorld/hello.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/HelloWorld/hello.cpp.o
-.PHONY : Users/oguzemrecakil/Desktop/HelloWorld/hello.cpp.o
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.o
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.o
 
-Users/oguzemrecakil/Desktop/HelloWorld/hello.i: Users/oguzemrecakil/Desktop/HelloWorld/hello.cpp.i
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.i: Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.i
 
-.PHONY : Users/oguzemrecakil/Desktop/HelloWorld/hello.i
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.i
 
 # target to preprocess a source file
-Users/oguzemrecakil/Desktop/HelloWorld/hello.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/HelloWorld/hello.cpp.i
-.PHONY : Users/oguzemrecakil/Desktop/HelloWorld/hello.cpp.i
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.i
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.i
 
-Users/oguzemrecakil/Desktop/HelloWorld/hello.s: Users/oguzemrecakil/Desktop/HelloWorld/hello.cpp.s
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.s: Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.s
 
-.PHONY : Users/oguzemrecakil/Desktop/HelloWorld/hello.s
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.s
 
 # target to generate assembly for a file
-Users/oguzemrecakil/Desktop/HelloWorld/hello.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/HelloWorld/hello.cpp.s
-.PHONY : Users/oguzemrecakil/Desktop/HelloWorld/hello.cpp.s
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.s
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.cpp.s
 
 hello_test.o: hello_test.cpp.o
 
@@ -232,9 +232,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... unittest"
-	@echo "... Users/oguzemrecakil/Desktop/HelloWorld/hello.o"
-	@echo "... Users/oguzemrecakil/Desktop/HelloWorld/hello.i"
-	@echo "... Users/oguzemrecakil/Desktop/HelloWorld/hello.s"
+	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.o"
+	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.i"
+	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/hello.s"
 	@echo "... hello_test.o"
 	@echo "... hello_test.i"
 	@echo "... hello_test.s"

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/oguzemrecakil/Desktop/HelloWorld/unittest
+# Install script for directory: /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/oguzemrecakil/Desktop/HelloWorld/unittest/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
