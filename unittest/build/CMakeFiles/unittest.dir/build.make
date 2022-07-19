@@ -89,18 +89,18 @@ CMakeFiles/unittest.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittest.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/main.cpp -o CMakeFiles/unittest.dir/main.cpp.s
 
-CMakeFiles/unittest.dir/hello_test.cpp.o: CMakeFiles/unittest.dir/flags.make
-CMakeFiles/unittest.dir/hello_test.cpp.o: ../hello_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/unittest.dir/hello_test.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittest.dir/hello_test.cpp.o -c /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/hello_test.cpp
+CMakeFiles/unittest.dir/helloTest.cpp.o: CMakeFiles/unittest.dir/flags.make
+CMakeFiles/unittest.dir/helloTest.cpp.o: ../helloTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/unittest.dir/helloTest.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unittest.dir/helloTest.cpp.o -c /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/helloTest.cpp
 
-CMakeFiles/unittest.dir/hello_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unittest.dir/hello_test.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/hello_test.cpp > CMakeFiles/unittest.dir/hello_test.cpp.i
+CMakeFiles/unittest.dir/helloTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unittest.dir/helloTest.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/helloTest.cpp > CMakeFiles/unittest.dir/helloTest.cpp.i
 
-CMakeFiles/unittest.dir/hello_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittest.dir/hello_test.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/hello_test.cpp -o CMakeFiles/unittest.dir/hello_test.cpp.s
+CMakeFiles/unittest.dir/helloTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unittest.dir/helloTest.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/helloTest.cpp -o CMakeFiles/unittest.dir/helloTest.cpp.s
 
 CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.o: CMakeFiles/unittest.dir/flags.make
 CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.o: /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp
@@ -118,16 +118,17 @@ CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateC
 # Object files for target unittest
 unittest_OBJECTS = \
 "CMakeFiles/unittest.dir/main.cpp.o" \
-"CMakeFiles/unittest.dir/hello_test.cpp.o" \
+"CMakeFiles/unittest.dir/helloTest.cpp.o" \
 "CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.o"
 
 # External object files for target unittest
 unittest_EXTERNAL_OBJECTS =
 
 bin/unittest: CMakeFiles/unittest.dir/main.cpp.o
-bin/unittest: CMakeFiles/unittest.dir/hello_test.cpp.o
+bin/unittest: CMakeFiles/unittest.dir/helloTest.cpp.o
 bin/unittest: CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.o
 bin/unittest: CMakeFiles/unittest.dir/build.make
+bin/unittest: /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/build/lib/sum/libsum_lib.a
 bin/unittest: CMakeFiles/unittest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin/unittest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unittest.dir/link.txt --verbose=$(VERBOSE)

@@ -1,14 +1,19 @@
 #ifndef HELLO_H
 #define HELLO_H
 
+#include "sum.h"
+
 class hello
 {
 private:
     /* data */
+    sum sum_;
 public:
 
 void sayHi();
 int  return7();
+int  sumThreeParams(int a, int b, int c);
+
 };
 
 

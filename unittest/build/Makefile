@@ -169,32 +169,32 @@ Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.s
 .PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.s
 
-hello_test.o: hello_test.cpp.o
+helloTest.o: helloTest.cpp.o
 
-.PHONY : hello_test.o
+.PHONY : helloTest.o
 
 # target to build an object file
-hello_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/hello_test.cpp.o
-.PHONY : hello_test.cpp.o
+helloTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/helloTest.cpp.o
+.PHONY : helloTest.cpp.o
 
-hello_test.i: hello_test.cpp.i
+helloTest.i: helloTest.cpp.i
 
-.PHONY : hello_test.i
+.PHONY : helloTest.i
 
 # target to preprocess a source file
-hello_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/hello_test.cpp.i
-.PHONY : hello_test.cpp.i
+helloTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/helloTest.cpp.i
+.PHONY : helloTest.cpp.i
 
-hello_test.s: hello_test.cpp.s
+helloTest.s: helloTest.cpp.s
 
-.PHONY : hello_test.s
+.PHONY : helloTest.s
 
 # target to generate assembly for a file
-hello_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/hello_test.cpp.s
-.PHONY : hello_test.cpp.s
+helloTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/helloTest.cpp.s
+.PHONY : helloTest.cpp.s
 
 main.o: main.cpp.o
 
@@ -235,9 +235,9 @@ help:
 	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.o"
 	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.i"
 	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.s"
-	@echo "... hello_test.o"
-	@echo "... hello_test.i"
-	@echo "... hello_test.s"
+	@echo "... helloTest.o"
+	@echo "... helloTest.i"
+	@echo "... helloTest.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.o"
-  "CMakeFiles/unittest.dir/hello_test.cpp.o"
+  "CMakeFiles/unittest.dir/helloTest.cpp.o"
   "CMakeFiles/unittest.dir/main.cpp.o"
   "bin/unittest"
   "bin/unittest.pdb"

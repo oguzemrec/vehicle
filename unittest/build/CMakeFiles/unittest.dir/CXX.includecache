@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../../lib/sum/sum.h
+
 /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/gmock-actions.h
 errno.h
 -
@@ -527,10 +529,16 @@ acxx_demangle.h
 -
 
 /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.h
+sum.h
+/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sum.h
 
-/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/hello_test.cpp
+/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/helloTest.cpp
 gmock/gmock.h
 /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/gmock/gmock.h
+gtest/gtest.h
+/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/gtest/gtest.h
 ../src/hello.h
 /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.h
+memory
+-
 
