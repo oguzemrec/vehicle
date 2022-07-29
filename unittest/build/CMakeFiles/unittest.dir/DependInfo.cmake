@@ -5,8 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp" "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.o"
+  "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp" "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.o"
   "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/helloTest.cpp" "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles/unittest.dir/helloTest.cpp.o"
   "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/main.cpp" "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles/unittest.dir/main.cpp.o"
+  "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/sensor_test.cpp" "/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/unittest/build/CMakeFiles/unittest.dir/sensor_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

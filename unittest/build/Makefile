@@ -169,6 +169,33 @@ Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.s
 .PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.s
 
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.o: Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.o
+
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.o
+
+# target to build an object file
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.o
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.o
+
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.i: Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.i
+
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.i
+
+# target to preprocess a source file
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.i
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.i
+
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.s: Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.s
+
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.s
+
+# target to generate assembly for a file
+Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.s
+.PHONY : Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.s
+
 helloTest.o: helloTest.cpp.o
 
 .PHONY : helloTest.o
@@ -223,6 +250,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sensor_test.o: sensor_test.cpp.o
+
+.PHONY : sensor_test.o
+
+# target to build an object file
+sensor_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/sensor_test.cpp.o
+.PHONY : sensor_test.cpp.o
+
+sensor_test.i: sensor_test.cpp.i
+
+.PHONY : sensor_test.i
+
+# target to preprocess a source file
+sensor_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/sensor_test.cpp.i
+.PHONY : sensor_test.cpp.i
+
+sensor_test.s: sensor_test.cpp.s
+
+.PHONY : sensor_test.s
+
+# target to generate assembly for a file
+sensor_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/sensor_test.cpp.s
+.PHONY : sensor_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -235,12 +289,18 @@ help:
 	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.o"
 	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.i"
 	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.s"
+	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.o"
+	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.i"
+	@echo "... Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.s"
 	@echo "... helloTest.o"
 	@echo "... helloTest.i"
 	@echo "... helloTest.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sensor_test.o"
+	@echo "... sensor_test.i"
+	@echo "... sensor_test.s"
 .PHONY : help
 
 

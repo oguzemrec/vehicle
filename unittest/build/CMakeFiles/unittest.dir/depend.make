@@ -5,6 +5,10 @@ CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateC
 CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.o: /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp
 CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.cpp.o: /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/hello.h
 
+CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.o: /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp
+CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.o: /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.h
+CMakeFiles/unittest.dir/Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.cpp.o: /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/spi.h
+
 CMakeFiles/unittest.dir/helloTest.cpp.o: ../../lib/sum/sum.h
 CMakeFiles/unittest.dir/helloTest.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/gmock-actions.h
 CMakeFiles/unittest.dir/helloTest.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/gmock-cardinalities.h
@@ -80,4 +84,43 @@ CMakeFiles/unittest.dir/main.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.2
 CMakeFiles/unittest.dir/main.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/internal/gtest-string.h
 CMakeFiles/unittest.dir/main.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/internal/gtest-type-util.h
 CMakeFiles/unittest.dir/main.cpp.o: ../main.cpp
+
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/gmock-actions.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/gmock-cardinalities.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/gmock-function-mocker.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/gmock-matchers.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/gmock-more-actions.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/gmock-more-matchers.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/gmock-nice-strict.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/gmock-spec-builders.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/gmock.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/internal/custom/gmock-generated-actions.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/internal/custom/gmock-matchers.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/internal/custom/gmock-port.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/internal/gmock-internal-utils.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/internal/gmock-port.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gmock/internal/gmock-pp.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/gtest-death-test.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/gtest-matchers.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/gtest-message.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/gtest-param-test.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/gtest-printers.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/gtest-test-part.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/gtest-typed-test.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/gtest.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/gtest_pred_impl.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/gtest_prod.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/internal/custom/gtest-port.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/internal/custom/gtest-printers.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/internal/gtest-filepath.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/internal/gtest-internal.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/internal/gtest-param-util.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/internal/gtest-port-arch.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/internal/gtest-port.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/internal/gtest-string.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/.conan/data/gtest/cci.20210126/_/_/package/8ea16b5437d767794f13beec66099d7352875d19/include/gtest/internal/gtest-type-util.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/sensors.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: /Users/oguzemrecakil/Desktop/cppTemplateProject/templateCpp/src/spi.h
+CMakeFiles/unittest.dir/sensor_test.cpp.o: ../sensor_test.cpp
 

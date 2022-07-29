@@ -12,7 +12,9 @@ public:
 
 void sayHi();
 int  return7();
+int  sum(int a, int b);
 int  sumThreeParams(int a, int b, int c);
+
 
 };
 

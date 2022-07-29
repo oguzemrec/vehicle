@@ -12,5 +12,10 @@ int hello::return7()
 
 int hello::sumThreeParams(int a, int b, int c)
 {
-    return sum_.getSum(a,sum_.getSum(b,c));
+    return sum(a,sum(b,c));
+}
+
+int hello::sum(int a, int b)
+{
+    return a+b;
 }

@@ -6,7 +6,7 @@
 			"label": "cmake build",
 			"type": "shell",
 			"options": {
-				"cwd": "${workspaceRoot}/build_release"
+				"cwd": "${workspaceRoot}/build"
 			},
 			"command": "cmake -DCMAKE_BUILD_TYPE=Release .. && cmake --build .",
 		},
