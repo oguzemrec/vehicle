@@ -59,6 +59,7 @@ sensorID id { 0 };
 };
 
 
+
 class temperature : public sensorInterface
 {
 public:
