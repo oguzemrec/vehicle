@@ -25,10 +25,10 @@ std::shared_ptr<timeOfFlight> senTimeOfFlight;
 std::shared_ptr<infrared> senInfrared;
 std::shared_ptr<temperature> senOutTemperature;
 std::shared_ptr<temperature> senInTemperature;
-std::shared_ptr<temperature> senHumidity;
-std::shared_ptr<temperature> senAirPressure;
-std::shared_ptr<temperature> senOutGas;
-std::shared_ptr<temperature> senLight;
+std::shared_ptr<humidity> senHumidity;
+std::shared_ptr<airPressure> senAirPressure;
+std::shared_ptr<outGas> senOutGas;
+std::shared_ptr<light> senLight;
 
 enum class runningModes {
   IDLE,

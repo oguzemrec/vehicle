@@ -26,10 +26,10 @@ vehicle::vehicle()
 
   senOutTemperature = std::make_shared<temperature>(sensorID::OUT_TEMPERATURE);
   senInTemperature = std::make_shared<temperature>(sensorID::IN_TEMPERATURE);
-  senAirPressure = std::make_shared<temperature>(sensorID::AIR_PRESSURE);
-  senHumidity = std::make_shared<temperature>(sensorID::HUMIDITY);
-  senOutGas = std::make_shared<temperature>(sensorID::OUT_GAS);
-  senLight = std::make_shared<temperature>(sensorID::LIGHT);
+  senAirPressure = std::make_shared<airPressure>(sensorID::AIR_PRESSURE);
+  senHumidity = std::make_shared<humidity>(sensorID::HUMIDITY);
+  senOutGas = std::make_shared<outGas>(sensorID::OUT_GAS);
+  senLight = std::make_shared<light>(sensorID::LIGHT);
 
   envSensors.emplace_back(senOutTemperature);
   envSensors.emplace_back(senInTemperature);

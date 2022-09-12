@@ -52,7 +52,7 @@ sensorID getId() const
 friend std::ostream& operator<<(std::ostream& os, const sensorInterface& em);
 
 protected:
-bool runStatus = false;
+bool runStatus = true;
 
 std::string name;
 sensorID id { 0 };
@@ -80,6 +80,86 @@ virtual double getValue() const
 };
 private:
 double temperatureValue;
+};
+
+class humidity : public sensorInterface
+{
+public:
+explicit humidity(sensorID _id)
+{
+  id = _id;
+
+  name = "Humidity";
+};
+virtual void read() const
+{
+};
+virtual double getValue() const
+{
+  return humidtyLevel;
+};
+private:
+double humidtyLevel;
+};
+
+class airPressure : public sensorInterface
+{
+public:
+explicit airPressure(sensorID _id)
+{
+  id = _id;
+
+  name = "Air Pressure";
+};
+virtual void read() const
+{
+};
+virtual double getValue() const
+{
+  return pressureLevel;
+};
+private:
+double pressureLevel;
+};
+
+class light : public sensorInterface
+{
+public:
+explicit light(sensorID _id)
+{
+  id = _id;
+
+  name = "Light";
+};
+virtual void read() const
+{
+};
+virtual double getValue() const
+{
+  return lightLevel;
+};
+private:
+double lightLevel;
+};
+
+class outGas : public sensorInterface
+{
+public:
+explicit outGas(sensorID _id)
+{
+  id = _id;
+
+  name = "Out Gas";
+};
+virtual void read() const
+{
+};
+virtual double getValue() const
+{
+  return outGasLevel;
+};
+private:
+double outGasLevel;
 };
 
 class sonar : public sensorInterface
