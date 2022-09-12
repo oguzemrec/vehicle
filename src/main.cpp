@@ -1,15 +1,19 @@
 #include <iostream>
-#include "sum.h"
-#include "hello.h"
+#include <chrono>
+#include <thread>
+#include <mutex>
+#include <unistd.h>
+#include "energymanagament.h"
 #include "sensors.h"
-int main(int, char**) {
+#include "movement.h"
+#include "vehicle.h"
+using namespace std;
 
-    hello h;
-    h.sayHi();
 
-    sensors sensor;
-    std::cout << "Sum:  " << sum().getSum(5,5) << "\n";
-     std::cout << "Sum 3Param:  " << h.sumThreeParams(5,3,6) << "\n";
+int main()
+{
+  vehicle v;
 
-      std::cout << "Sensor Spi Param Channel 2s " << sensor.readSpi(sensor.__spi) << "\n";
+  cout << "Hello World!" << endl;
+  return 0;
 }

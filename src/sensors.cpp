@@ -1,7 +1,9 @@
 #include "sensors.h"
+#include <type_traits>
 
-uint16_t sensors::readSpi( const spi& _spi, int channel)
+std::ostream& operator<<(std::ostream& os, const sensorInterface& sensor)
 {
-   return _spi.read(channel);
-}
+  os << "{ " << sensor.name << ": ID: " << static_cast<std::underlying_type<sensorID>::type>(sensor.id) << " Value: " << sensor.getValue() << " is runnig:" << sensor.runStatus << "}";
 
+  return os;
+}

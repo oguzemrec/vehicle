@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "preLaunchTask": "cmake build debug",
-            "program": "${workspaceFolder}/build_debug/HelloWorld",
+            "program": "${workspaceFolder}/build_debug/vehicle",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
