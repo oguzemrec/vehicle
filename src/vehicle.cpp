@@ -39,17 +39,8 @@ vehicle::vehicle()
   envSensors.emplace_back(senLight);
 
 
-//  _movement->move(100);
 
-//  std::cout << *_movement << endl;
-
-//  _movement->move(1, 4);
-//  std::cout << *_movement << endl;
-//  _movement->stop(2);
-
-//  std::cout << *_movement << endl;
-
-  auto info = [&](){
+  auto info = [=](){
                 std::cout << *battery << endl << *_movement << endl << *cam << endl;
 
                 for (auto const& s: distanceSensors)
@@ -65,7 +56,7 @@ vehicle::vehicle()
   int camTakingPhotosCount { 0 };
   int infoCount { 0 };
   std::thread stateMachine([&](){
-                           while (1)
+                           while (true)
                            {
                              std::unique_lock<std::mutex> lock(io_mutex);
                              auto batteryLevel = battery->getBatteryLevel();
@@ -122,12 +113,12 @@ vehicle::vehicle()
                                camTakingPhotosCount++;
                                if (camTakingPhotosCount == 100)
                                {
-                                 //   std::cout << *battery << endl << std::flush;
+                              
                                  camTakingPhotosCount = 0;
                                  cam->processPhotos();
                                  std::this_thread::sleep_for(std::chrono::milliseconds(50));
                                  cam->setProcessStatus(false);
-                                 //  std::cout << *battery << endl << std::flush;
+                              
                                }
                              }
 

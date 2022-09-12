@@ -33,7 +33,7 @@ private:
 class track {
 public:
 
-track(int, trackDirection);
+track(unsigned int, trackDirection);
 unsigned int getSpeed() const;
 void setSpeed(unsigned int value);
 
@@ -68,10 +68,10 @@ class movement
 public:
 movement(const std::shared_ptr<energyManagament> &_em);
 
-void move(unsigned int id, unsigned int speed);  //for specific motor
-void move(unsigned int speed);  //for all motors
+void move(unsigned int id, unsigned int speed) const;  //for specific motor
+void move(unsigned int speed) ;  //for all motors
 
-void stop(unsigned int id); // for specific motor
+void stop(unsigned int id) const; // for specific motor
 void stop(); //for all motors
 
 friend std::ostream& operator<<(std::ostream& os, const movement& em);

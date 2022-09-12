@@ -5,9 +5,9 @@
 #include <memory.h>
 #include "energymanagament.h"
 
-#define SONAR_ENERGY_CON_RATE 0.003
-#define INFRARED_ENERGY_CON_RATE 0.001
-#define TIME_OF_FLIGHT_CON_RATE 0.002
+constexpr double SONAR_ENERGY_CON_RATE = 0.003;
+constexpr double INFRARED_ENERGY_CON_RATE = 0.001;
+constexpr double TIME_OF_FLIGHT_CON_RATE  = 0.002;
 
 enum class sensorID {
   SONAR =1,
@@ -25,6 +25,7 @@ enum class sensorID {
 class sensorInterface
 {
 public:
+virtual ~sensorInterface() = default;
 virtual void read()const = 0;
 virtual double getValue() const = 0;
 
@@ -61,7 +62,7 @@ sensorID id { 0 };
 class temperature : public sensorInterface
 {
 public:
-temperature(sensorID _id)
+explicit temperature(sensorID _id)
 {
   id = _id;
 
@@ -70,10 +71,10 @@ temperature(sensorID _id)
   else if (sensorID::IN_TEMPERATURE == id)
     name = "Inside Temperature";
 };
-void read() const
+virtual void read() const
 {
 };
-double getValue() const
+virtual double getValue() const
 {
   return temperatureValue;
 };
@@ -84,7 +85,7 @@ double temperatureValue;
 class sonar : public sensorInterface
 {
 public:
-sonar(const std::shared_ptr<energyManagament> &_em)
+explicit sonar(const std::shared_ptr<energyManagament> &_em)
 {
   name = "Sonar";
   id = sensorID::SONAR;
@@ -94,14 +95,14 @@ sonar(const std::shared_ptr<energyManagament> &_em)
     em->insertConsumption(this->getName(), SONAR_ENERGY_CON_RATE, true);
 };
 
-virtual void read() const override
+virtual void read() const 
 {
 };
-virtual double getValue() const override
+virtual double getValue() const 
 {
   return distance;
 };
-virtual void setRunning(bool value) override
+virtual void setRunning(bool value) 
 {
   runStatus = value;
   if (em)
@@ -115,7 +116,7 @@ std::shared_ptr<energyManagament> em;
 class infrared : public sensorInterface
 {
 public:
-infrared(const std::shared_ptr<energyManagament> &_em)
+explicit infrared(const std::shared_ptr<energyManagament> &_em)
 {
   name = "Infrared";
   id = sensorID::INFRARED;
@@ -125,14 +126,14 @@ infrared(const std::shared_ptr<energyManagament> &_em)
     em->insertConsumption(this->getName(), INFRARED_ENERGY_CON_RATE, true);
 };
 
-virtual void read() const override
+virtual void read() const 
 {
 };
-virtual double getValue() const override
+virtual double getValue() const 
 {
   return distance;
 };
-virtual void setRunning(bool value) override
+virtual void setRunning(bool value) 
 {
   runStatus = value;
   if (em)
@@ -147,7 +148,7 @@ std::shared_ptr<energyManagament> em;
 class timeOfFlight : public sensorInterface
 {
 public:
-timeOfFlight(const std::shared_ptr<energyManagament> &_em)
+explicit timeOfFlight(const std::shared_ptr<energyManagament> &_em)
 {
   name = "Time-of-Flight";
   id = sensorID::TIME_OF_FLIGHT;
@@ -157,14 +158,14 @@ timeOfFlight(const std::shared_ptr<energyManagament> &_em)
     em->insertConsumption(this->getName(), TIME_OF_FLIGHT_CON_RATE, true);
 };
 
-virtual void read() const override
+virtual void read() const 
 {
 };
-virtual double getValue() const override
+virtual double getValue() const 
 {
   return distance;
 };
-virtual void setRunning(bool value) override
+virtual void setRunning(bool value) 
 {
   runStatus = value;
   if (em)

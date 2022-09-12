@@ -49,7 +49,15 @@
         "tuple": "cpp",
         "type_traits": "cpp",
         "typeinfo": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "__functional_03": "cpp",
+        "__node_handle": "cpp",
+        "__split_buffer": "cpp",
+        "__tree": "cpp",
+        "map": "cpp",
+        "optional": "cpp",
+        "thread": "cpp",
+        "vector": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"

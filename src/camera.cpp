@@ -1,7 +1,7 @@
 #include "camera.h"
 
 
-void camera::takePhotos()
+void camera::takePhotos() const
 {
   if (!runStatus)
     return;

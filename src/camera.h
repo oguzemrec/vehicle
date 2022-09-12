@@ -2,18 +2,19 @@
 #define CAMERA_H
 
 #include <string>
-#include <memory.h>
+#include <memory>
 #include "energymanagament.h"
 
-#define CAMERA_TAKING_PHOTOS_ENERGY_CON_RATE 0.0001
-#define CAMERA_PROCESS_PHOTOS_ENERGY_CON_RATE 0.001
+constexpr double CAMERA_TAKING_PHOTOS_ENERGY_CON_RATE = 0.0001;
+constexpr double CAMERA_PROCESS_PHOTOS_ENERGY_CON_RATE = 0.001;
 
 class camera
 {
 public:
-camera(const std::shared_ptr<energyManagament> &_em)
+explicit camera(const std::shared_ptr<energyManagament> &_em):
+em {_em}
 {
-  em = _em;
+
 
   if (em)
     em->insertConsumption(this->getName(), CAMERA_TAKING_PHOTOS_ENERGY_CON_RATE, false);
@@ -38,7 +39,7 @@ std::string getName() const
   return name;
 };
 
-void takePhotos();
+void takePhotos() const;
 void processPhotos();
 
 unsigned int getCountProcessed() const;

@@ -3,8 +3,9 @@
 
 
 movement::movement(const std::shared_ptr<energyManagament> &_em)
+:em{_em}
 {
-  em = _em;
+
   tracks.emplace_back(std::make_unique<track>(1, trackDirection::DIR_SIDE));
   tracks.emplace_back(std::make_unique<track>(2, trackDirection::DIR_SIDE));
   tracks.emplace_back(std::make_unique<track>(3, trackDirection::DIR_FRONT));
@@ -15,7 +16,7 @@ movement::movement(const std::shared_ptr<energyManagament> &_em)
       em->insertConsumption(t->getName(), 0, 0);
 }
 
-void movement::move(unsigned int id, unsigned int speed)
+void movement::move(unsigned int id, unsigned int speed) const
 {
   const auto& t = tracks.at(id);
 
@@ -40,7 +41,7 @@ void movement::move(unsigned int speed)
     }
 }
 
-void movement::stop(unsigned int id)
+void movement::stop(unsigned int id) const
 {
   const auto& t = tracks.at(id);
 
@@ -65,10 +66,10 @@ void movement::stop()
     }
 }
 
-track::track(int _id, trackDirection _dir)
+track::track(unsigned int _id, trackDirection _dir)
+: id{_id},
+dir{_dir}
 {
-  this->id = _id;
-  this->dir = _dir;
 
   name = "Track" + std::to_string(this->id);
 }
