@@ -18,7 +18,7 @@ movement::movement(const std::shared_ptr<energyManagament> &_em)
 
 void movement::move(unsigned int id, unsigned int speed) const
 {
-  const auto& t = tracks.at(id);
+  const auto& t = tracks.at(id-1);
 
   t->setSpeed(speed);
 
@@ -43,7 +43,7 @@ void movement::move(unsigned int speed)
 
 void movement::stop(unsigned int id) const
 {
-  const auto& t = tracks.at(id);
+  const auto& t = tracks.at(id-1);
 
   t->setSpeed(0);
 
