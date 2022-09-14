@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Debug (lldb)",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "cmake build debug",
+            "program": "${workspaceFolder}/build_debug/vehicle",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb" 
+        },
+        {
+            "name": "C++ unittest Debug (lldb)",
+            "type": "cppdbg",
+            "request": "launch",
+            "preLaunchTask": "cmake unittest build debug",
+            "program": "${workspaceFolder}/unittest/build/bin/unittest",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/unittest",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        }
+    ]
+}

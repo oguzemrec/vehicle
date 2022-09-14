@@ -1,0 +1,40 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+
+		{
+			"label": "cmake build",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/build"
+			},
+			"command": "cmake -DCMAKE_BUILD_TYPE=Release .. && cmake --build .",
+		},
+		{
+			"label": "cmake build debug",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/build_debug"
+			},
+			"command": "cmake -DCMAKE_BUILD_TYPE=Debug .. && cmake --build .", 
+		},
+		{
+			"label": "cmake unittest build debug",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/unittest/build"
+			},
+			"command": "cmake -DCMAKE_BUILD_TYPE=Debug .. && cmake --build .",
+		},
+		{
+			"label": "cmake unittest build",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceRoot}/unittest/build"
+			},
+			"command": "cmake -DCMAKE_BUILD_TYPE=Release .. && cmake --build .",
+		}
+
+	]
+}
+
